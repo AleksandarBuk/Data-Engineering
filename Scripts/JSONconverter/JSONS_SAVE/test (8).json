@@ -1,0 +1,102 @@
+{
+    "scenes": [
+        {
+            "frame_start": 10,
+            "frame_end": 1200,
+            "author": "Author 1",
+            "type": "Scene",
+            "description": "Scene 1 description",
+            "id": 1
+        },
+        {
+            "frame_start": 1021,
+            "frame_end": 2400,
+            "author": "Author 2",
+            "type": "Scene",
+            "description": "Scene 2 description",
+            "id": 2
+        },
+        {
+            "frame_start": 0,
+            "frame_end": 12340,
+            "author": "Author 1",
+            "type": "Scene",
+            "description": "Scene 1 description",
+            "id": 3
+        },
+        {
+            "frame_start": 10,
+            "frame_end": 1200,
+            "author": "Author 1",
+            "type": "Scene",
+            "description": "Scene 1 description",
+            "id": 4
+        },
+        {
+            "frame_start": 1021,
+            "frame_end": 2400,
+            "author": "Author 2",
+            "type": "Scene",
+            "description": "Scene 2 description",
+            "id": 5
+        },
+        {
+            "frame_start": 0,
+            "frame_end": 12340,
+            "author": "Author 1",
+            "type": "Scene",
+            "description": "Scene 1 description",
+            "id": 6
+        },
+        {
+            "frame_start": 10,
+            "frame_end": 1200,
+            "author": "Author 1",
+            "type": "Scene",
+            "description": "Scene 1 description",
+            "id": 7
+        },
+        {
+            "frame_start": 1021,
+            "frame_end": 2400,
+            "author": "Author 2",
+            "type": "Scene",
+            "description": "Scene 2 description",
+            "id": 8
+        },
+        {
+            "frame_start": 0,
+            "frame_end": 12340,
+            "author": "Author 1",
+            "type": "Scene",
+            "description": "Scene 1 description",
+            "id": 9
+        }
+    ],
+    "segments": [
+        {
+            "frame_start": 10,
+            "frame_end": 1200,
+            "author": "Author 1",
+            "type": "Scene",
+            "description": "Scene 1 description",
+            "id": 1
+        },
+        {
+            "frame_start": 10,
+            "frame_end": 1200,
+            "author": "Author 1",
+            "type": "Scene",
+            "description": "Scene 1 description",
+            "id": 2
+        },
+        {
+            "frame_start": 10,
+            "frame_end": 1200,
+            "author": "Author 1",
+            "type": "Scene",
+            "description": "Scene 1 description",
+            "id": 3
+        }
+    ]
+}
