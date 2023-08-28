@@ -1,2 +1,1 @@
-# A Bunch of Random code
-Data Structures in Python3
+# Scripts, Data STructures and a bunch of random code
