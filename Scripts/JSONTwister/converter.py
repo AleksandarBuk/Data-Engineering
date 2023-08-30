@@ -4,6 +4,7 @@ from tqdm import tqdm
 from tkinter import Tk, filedialog
 
 
+# Assign value to the JSON file
 def assign_ids(data):
     for idx, scene in enumerate(data["scenes"]):
         scene["id"] = idx + 1
@@ -12,6 +13,7 @@ def assign_ids(data):
         segment["id"] = idx + 1
 
 
+# Processes the JSON file through the value assign function
 def process_json_file(file_path, output_directory):
     with open(file_path, "r") as json_file:
         data = json.load(json_file)
@@ -24,6 +26,7 @@ def process_json_file(file_path, output_directory):
         json.dump(data, json_file, indent=4)
 
 
+# processes directory with JSON files
 def process_directory(input_directory, output_directory):
     for filename in tqdm(os.listdir(input_directory), desc="Processing JSON files"):
         if filename.endswith(".json"):
