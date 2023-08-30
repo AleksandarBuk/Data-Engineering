@@ -1,0 +1,90 @@
+{
+  "scenes": [
+    {
+      "frame_start": 10,
+      "frame_end": 1200,
+      "author": "Author 1",
+      "type": "Scene",
+      "description": "Scene 1 description"
+    },
+    {
+      "frame_start": 1021,
+      "frame_end": 2400,
+      "author": "Author 2",
+      "type": "Scene",
+      "description": "Scene 2 description"
+    },
+    {
+      "frame_start": 0,
+      "frame_end": 12340,
+      "author": "Author 1",
+      "type": "Scene",
+      "description": "Scene 1 description"
+    },
+    {
+      "frame_start": 10,
+      "frame_end": 1200,
+      "author": "Author 1",
+      "type": "Scene",
+      "description": "Scene 1 description"
+    },
+    {
+      "frame_start": 1021,
+      "frame_end": 2400,
+      "author": "Author 2",
+      "type": "Scene",
+      "description": "Scene 2 description"
+    },
+    {
+      "frame_start": 0,
+      "frame_end": 12340,
+      "author": "Author 1",
+      "type": "Scene",
+      "description": "Scene 1 description"
+    },
+    {
+      "frame_start": 10,
+      "frame_end": 1200,
+      "author": "Author 1",
+      "type": "Scene",
+      "description": "Scene 1 description"
+    },
+    {
+      "frame_start": 1021,
+      "frame_end": 2400,
+      "author": "Author 2",
+      "type": "Scene",
+      "description": "Scene 2 description"
+    },
+    {
+      "frame_start": 0,
+      "frame_end": 12340,
+      "author": "Author 1",
+      "type": "Scene",
+      "description": "Scene 1 description"
+    }
+  ],
+  "segments": [
+    {
+      "frame_start": 10,
+      "frame_end": 1200,
+      "author": "Author 1",
+      "type": "Scene",
+      "description": "Scene 1 description"
+    },
+    {
+      "frame_start": 10,
+      "frame_end": 1200,
+      "author": "Author 1",
+      "type": "Scene",
+      "description": "Scene 1 description"
+    },
+    {
+      "frame_start": 10,
+      "frame_end": 1200,
+      "author": "Author 1",
+      "type": "Scene",
+      "description": "Scene 1 description"
+    }
+  ]
+}
