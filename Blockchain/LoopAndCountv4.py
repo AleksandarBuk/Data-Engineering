@@ -19,15 +19,21 @@ def process_json_files(directory):
                 segments = data['segments']
 
                 segment_chains = []
-                segment_counts = []
+                frame_counts = []
                 current_chain = 0
                 segment_count = 0
+                segment_length = 0
 
                 for segment in segments:
                     segment_type = segment['type']
+                    segment_start = segment['start_frame']
+                    segment_end = segment['end_frame']
 
                     if segment_type == 'TV':
+                        segment_length = segment_end - segment_start
                         segment_count += 1
+                        frame_counts.append(segment_length)
+
                     else:
                         if segment_count > 0:
                             segment_chains.append(segment_count)
@@ -37,12 +43,10 @@ def process_json_files(directory):
                 if segment_count > 0:
                     segment_chains.append(segment_count)
 
-                segment_counts.append(len(segment_chains))
-
             result = {
                 filename: {
-                    'frames': segment_chains,
-                    'segments-chained': segment_counts
+                    'frames': frame_counts,
+                    'segments-chained': segment_chains
                 }
             }
 
