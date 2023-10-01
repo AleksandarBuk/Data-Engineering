@@ -1,2 +1,2 @@
 Data-Science Repository:
-	Scripts for data manipulation, extraction, and formatting, along with Data Structures and Data Processing tools.
+	The Data-Science Repository provides a collection of scripts and tools for data manipulation, extraction, formatting, and includes data structures and processing utilities for data science projects
