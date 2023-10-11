@@ -1,0 +1,2 @@
+run custom files:
+"./transpose_script.sh custom_input_file.txt custom_output_file.txt"
